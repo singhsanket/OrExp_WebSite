@@ -55,10 +55,10 @@ export default LoginForm
 
 const styles = {
     container: {
-      display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#f9f9f9'
+      display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#1f0f0f'
     },
     form: {
-      background: 'white', padding: '2rem', borderRadius: '8px', boxShadow: '0 0 10px rgba(0,0,0,0.1)', minWidth: '300px'
+      background: 'white', padding: '2rem', borderRadius: '8px', boxShadow: '0 0 10px rgba(0.3,0.3,0.3,0.3)', minWidth: '300px'
     },
     heading: {
       marginBottom: '1.5rem', textAlign: 'center'
