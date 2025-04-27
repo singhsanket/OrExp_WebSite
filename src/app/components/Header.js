@@ -28,7 +28,7 @@ const Header = ({ size, setShow , onLogout}) => {
         {/* Icons */}
         <div className="hidden lg:flex gap-4 text-gray-500 text-2xl mt-4 sm:mt-0">
           <span  onClick={()=>router.push('/user')}>  <FaRegUser  className="cursor-pointer hover:text-black transition" /> </span>
-          <button onClick={onLogout} style={{ marginLeft: 10, cursor:'pointer' }}>Logout</button>
+          <button onClick={onLogout} className='border-2 rounded-xl w-25 text-white bg-gray-400 hover:bg-gray-700 hover:scale-105'>Logout</button>
           <span className="relative " onClick={()=>setShow(false)}>
             <FaShoppingCart className="cursor-pointer hover:text-black transition" />
             <span className="absolute top-[-15px] right-[-5px] bg-red-500 text-white text-xs font-bold px-0.5 py-0.5 rounded-full border border-white">
